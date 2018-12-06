@@ -10,60 +10,60 @@
    <div class="span6">
 	<form id="psm_config" class="form-horizontal" action="install.php?action=config" method="post">
 	  {{ macro.csrf_input() }}
-		<p>Please enter the application url:</p>
+		<p>어플리케이션이 동작할 기본 주소 :</p>
 		<div class="control-group">
-		<label class="control-label" for="base_url">Application base url</label>
+		<label class="control-label" for="base_url">어플리케이션 기본 주소</label>
 		<div class="controls">
 		  <input type="text" id="base_url" name="base_url" value="{{ base_url }}" />
 		</div>
 	  </div>
-	  <p>Please enter your database info:</p>
+	  <p>데이터베이스 정보:</p>
 	  <div class="control-group">
-		<label class="control-label" for="host">Database host</label>
+		<label class="control-label" for="host">데이터베이스 호스트</label>
 		<div class="controls">
 		  <input type="text" id="host" name="db_host" value="{{ db_host }}" />
 		</div>
 	  </div>
 	  <div class="control-group">
-		<label class="control-label" for="host">Database port</label>
+		<label class="control-label" for="host">데이터베이스 포트</label>
 		<div class="controls">
 		  <input type="text" id="port" name="db_port" value="{{ db_port }}" />
 		</div>
 	  </div>
 	  <div class="control-group">
-		<label class="control-label" for="name">Database name</label>
+		<label class="control-label" for="name">데이터베이스명</label>
 		<div class="controls">
 		  <input type="text" id="name" name="db_name" value="{{ db_name }}" placeholder="db name" />
 		</div>
 	  </div>
 	  <div class="control-group">
-		<label class="control-label" for="user">Database user</label>
+		<label class="control-label" for="user">데이터베이스 사용자명</label>
 		<div class="controls">
 		  <input type="text" id="user" name="db_user" value="{{ db_user }}" placeholder="db user" />
 		</div>
 	  </div>
 	  <div class="control-group">
-		<label class="control-label" for="pass">Database password</label>
+		<label class="control-label" for="pass">데이터베이스 패스워드</label>
 		<div class="controls">
 		  <input type="password" id="pass" name="db_pass" value="{{ db_pass }}" placeholder="db password" />
 		</div>
 	  </div>
 	  <div class="control-group">
-		<label class="control-label" for="prefix">Table prefix</label>
+		<label class="control-label" for="prefix">테이블 구분자</label>
 		<div class="controls">
 		  <input type="text" id="prefix" name="db_prefix" value="{{ db_prefix }}" />
 		</div>
 	  </div>
 	  <div class="control-group">
 		<div class="controls">
-		  <button type="submit" class="btn">Save configuration</button>
+		  <button type="submit" class="btn">저장</button>
 		</div>
 	  </div>
 	</form>
    </div>
    {% if include_config_new_copy %}
 	<div class="span6">
-		<h3>Your config file:</h3>
+		<h3>환경설정파일 :</h3>
 		<div class="alert alert-error">Unable to save your configuration.</div>
 		<p>Your database information is valid, however we are unable to create the configuration file automatically.
 		Please create a new file in the project directory called "config.php" and copy the information below.</p>
