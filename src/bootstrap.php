@@ -91,5 +91,5 @@ if(!defined('PSM_INSTALL') || !PSM_INSTALL) {
 	}
 }
 
-$lang = psm_get_conf('language', 'en_US');
+$lang = psm_get_conf('language', 'ko_KR');
 psm_load_lang($lang);
