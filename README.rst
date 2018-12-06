@@ -25,13 +25,13 @@ Features:
 
 There are two different ways to monitor a server:
 
-* Service
+* 서비스
 
   A connection will be made to the entered ip or domain, on the given port.
   This way you can check if certain services on your machine are still running.
   To check your IMAP service for example, enter port 143.
 
-* Website
+* 웹사이트
 
   You can enter a link to a website, it will then use cURL to open the website and check the HTTP status code.
   If the HTTP status code is in the 4xx/5xx, it means an error occurred and the website is not accessible to the public.
@@ -61,7 +61,7 @@ The following SMS gateways are currently available:
 Please note: for these gateways you will need an account with sufficient credits.
 
 
-Download
+다운로드
 --------
 
 The latest version can be downloaded from http://www.phpservermonitor.org/.
@@ -78,7 +78,7 @@ Requirements
 * PHP-XML
 
 
-Install
+설치
 -------
 
 Please see docs/install.rst.
