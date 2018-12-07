@@ -129,7 +129,6 @@ PHPServerMonitor is now available on Docker : https://github.com/phpservermon/do
 -------
 [ 미니프로젝트 ]
 -------
-     박병수 http://www.gcp.valuedesign.co.kr
      안응철 http://www.gcp.elimao.site
      오동진 http://www.gcp.bestcloud.kr
      신동민 http://www.gcp.ddms.me
