@@ -96,10 +96,10 @@ If you are familiar with Vagrant (https://www.vagrantup.com)::
 .. and browse to http://localhost:8080/psm/.
 
 
-Documentation
+문서
 -------------
 
-The documentation is available in the docs folder or http://docs.phpservermonitor.org.
+자세한 문서는 링크주소를 확인해주세요. http://docs.phpservermonitor.org.
 
 
 License
@@ -122,3 +122,12 @@ Docker
 -------
 
 PHPServerMonitor is now available on Docker : https://github.com/phpservermon/docker-phpservermonitor
+
+클라우드 서비스개발 전문가 과정 (2018.09.17 ~ 2019.02.28)
+[ 미니프로젝트 ]
+박병수 http://www.gcp.valuedesign.co.kr
+안응철 http://www.gcp.elimao.site
+오동진 http://www.gcp.bestcloud.kr
+신동민 http://www.gcp.ddms.me
+한열   http://www.gcp.
+
