@@ -123,11 +123,13 @@ Docker
 
 PHPServerMonitor is now available on Docker : https://github.com/phpservermon/docker-phpservermonitor
 
-클라우드 서비스개발 전문가 과정 (2018.09.17 ~ 2019.02.28)<br>
-[ 미니프로젝트 ]<br>
-박병수 http://www.gcp.valuedesign.co.kr<br>
-안응철 http://www.gcp.elimao.site<br>
-오동진 http://www.gcp.bestcloud.kr<br>
-신동민 http://www.gcp.ddms.me<br>
-한열   http://www.gcp.<br>
+클라우드 서비스개발 전문가 과정 (2018.09.17 ~ 2019.02.28)
+-------
+[ 미니프로젝트 ]
+-------
+     박병수 http://www.gcp.valuedesign.co.kr
+     안응철 http://www.gcp.elimao.site
+     오동진 http://www.gcp.bestcloud.kr
+     신동민 http://www.gcp.ddms.me
+     한열   http://www.gcp.
 
