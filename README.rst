@@ -86,7 +86,7 @@ repo에서 설치를 실행하려면 다음 명령을 실행하여 종속성을 
 
      php composer.phar install
 
-If you are familiar with Vagrant (https://www.vagrantup.com)::
+Vagrant에  (https://www.vagrantup.com)::
 
      vagrant up
 
