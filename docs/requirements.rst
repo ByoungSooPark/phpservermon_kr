@@ -1,6 +1,6 @@
 .. _requirements:
 
-Requirements
+요구사항
 ============
 
 * Web server
