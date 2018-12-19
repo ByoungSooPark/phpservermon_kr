@@ -1,4 +1,4 @@
-.. _credits:
+﻿.. _credits:
 
 Credits
 =======
@@ -8,7 +8,7 @@ Credits
 +++++++
 
 The following people have contributed to the development of PHP Server Monitor:
-
+다음 사람들이 PHP Server Monitor의 개발에 기여했습니다.
 
 * Pepijn Over - https://github.com/dopeh
 
@@ -80,6 +80,8 @@ Translators
 +++++++++++
 
 The following people have contributed to the translation of PHP Server Monitor:
+다음 사람들이 PHP Server Monitor의 번역에 기여했습니다.
+
 
 * Bulgarian
 
@@ -159,6 +161,7 @@ Vendors
 +++++++
 
 The following libraries are being used by PHP Server Monitor:
+다음 라이브러리는 PHP Server Monitor에서 사용하고 있습니다 
 
 * jqPlot - http://www.jqplot.com
 * Twitter Bootstrap - http://getbootstrap.com
