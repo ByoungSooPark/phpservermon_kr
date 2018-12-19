@@ -7,10 +7,8 @@ PHP Server Monitor
    
 버젼 3.2.0
 
-
-PHP Server Monitor is a script that checks whether your websites and servers are up and running.
-It comes with a web based user interface where you can manage your services and websites,
-and you can manage users for each server with a mobile number and email address.
+PHP 서버 모니터는 웹 사이트와 서버가 가동 중인지 여부를 확인하는 스크립트 입니다. 
+서비스 및 웹 사이트를 관리할 수 있고 각 서버의 사용자를 모바일 번호와 이메일 주소로 관리할 수 있는 웹 기반 사용자 인터페이스가 함께 제공됩니다.
 
 
 Features:
