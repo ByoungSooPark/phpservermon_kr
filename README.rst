@@ -107,12 +107,6 @@ GNU 일반 공중 사용 허가서 (General Public License)의 조건에 따라
 자유 소프트웨어 재단, 라이센스 버전 3 또는
 (귀하의 선택에 따라) 최신 버전.
 
-PHP Server Monitor is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-
 PHP Server Monitor는 유용할 것이라는 바램으로 배포되었습니다.
 그러나 어떠한 보증도하지 않습니다. 자세한 내용은
 GNU 일반 공중 사용 허가서 (GNU General Public License).
@@ -123,7 +117,7 @@ PHP Server Monitor와 함께 제공됩니다. 그렇지 않은 경우 http://www
 Docker
 -------
 
-PHPServerMonitor is now available on Docker : https://github.com/phpservermon/docker-phpservermonitor
+PHPServerMonitor는 이제 Docker에서 사용할 수 있습니다. : https://github.com/phpservermon/docker-phpservermonitor
 -------
 
 
