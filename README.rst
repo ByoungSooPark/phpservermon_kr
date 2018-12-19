@@ -21,25 +21,25 @@ PHP 서버 모니터는 웹 사이트와 서버가 가동 중인지 여부를 �
 * 연결 오류, 보내는 이메일 및 텍스트 메시지 로그.
 * 서버를 자동으로 점검할 수 있는 간편한 크론작업 구현.
 
-There are two different ways to monitor a server:
+서버를 모니터링하는 두 가지 다른 방법
 
 * 서비스
 
-  A connection will be made to the entered ip or domain, on the given port.
-  This way you can check if certain services on your machine are still running.
-  To check your IMAP service for example, enter port 143.
+  포트에서 입력 된 ip 또는 도메인에 대한 연결이 만들어집니다.
+  이렇게하면 컴퓨터의 특정 서비스가 아직 실행 중인지 확인할 수 있습니다.
+  예를 들어 IMAP 서비스를 확인하려면 포트 143을 입력하십시오.
 
 * 웹사이트
 
-  You can enter a link to a website, it will then use cURL to open the website and check the HTTP status code.
-  If the HTTP status code is in the 4xx/5xx, it means an error occurred and the website is not accessible to the public.
-  You can also set a regular expression to match for content on the page itself.
-  If the regular expression returns no matches, the website is considered down.
-  In both cases the script will return a "status offline", and will start sending out notifications.
+  사이트 링크를 입력하면 cURL을 사용하여 웹 사이트를 열고 HTTP 상태 코드를 확인할 수 있습니다.
+  HTTP 상태 코드가 4xx / 5xx에 있으면 오류가 발생했으며 해당 웹 사이트에 일반인이 액세스 할 수 없음을 의미합니다.
+  페이지 자체의 내용과 일치하는 정규 표현식을 설정할 수도 있습니다.
+  정규식이 일치하는 항목을 반환하지 않으면 웹 사이트가 다운 된 것으로 간주됩니다.
+  두 경우 모두 스크립트는 "오프라인 상태"를 반환하고 알림을 발송하기 시작합니다.
 
-Each server has its own settings regarding notification.
-You can choose for email, text message (SMS) and Pushover.net notifications.
-The following SMS gateways are currently available:
+각 서버는 알림과 관련하여 고유 한 설정을가집니다.
+전자 메일, 문자 메시지 (SMS) 및 Pushover.net 알림을 선택할 수 있습니다.
+현재 다음과 같은 SMS 게이트웨이를 사용할 수 있습니다.
 
 * Clickatell - <https://www.clickatell.com>
 * Inetworx - <http://www.inetworx.ch>
@@ -55,17 +55,16 @@ The following SMS gateways are currently available:
 * FreeMobile (FR) - <http://mobile.free.fr/>
 
 
-
-Please note: for these gateways you will need an account with sufficient credits.
+참고 :이 게이트웨이의 경우 충분한 크레딧이있는 계정이 필요합니다.
 
 
 다운로드
 --------
 
-The latest version can be downloaded from http://www.phpservermonitor.org/.
+최신 버전은 http://www.phpservermonitor.org/에서 다운로드 할 수 있습니다.
 
 
-Requirements
+요구사항
 ------------
 
 * Web server
@@ -79,11 +78,11 @@ Requirements
 설치
 -------
 
-Please see docs/install.rst.
-In a nutshell: unzip, upload, run install.php, enjoy.
+설치시 docs/install.rst파일을 참조하십시오.
+압축을 풀고, 업로드하고, install.php를 실행하고, 즐기십시오.
 
-If you have downloaded the source from GitHub (and not a pre-built package), the dependencies are not included.
-To be able to run an installation from the repo, you need to run the following command to install the dependencies::
+GitHub에서 소스를 다운로드 한 경우 (미리 빌드 된 패키지가 아닌 경우) 종속성은 포함되지 않습니다.
+repo에서 설치를 실행하려면 다음 명령을 실행하여 종속성을 설치해야합니다.
 
      php composer.phar install
 
@@ -100,21 +99,26 @@ If you are familiar with Vagrant (https://www.vagrantup.com)::
 자세한 문서는 링크주소를 확인해주세요. http://docs.phpservermonitor.org.
 
 
-License
+라이센스
 -------
 
-PHP Server Monitor is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+PHP Server Monitor는 자유 소프트웨어입니다. 재배포 및/또는 수정할 수 있습니다.
+GNU 일반 공중 사용 허가서 (General Public License)의 조건에 따라
+자유 소프트웨어 재단, 라이센스 버전 3 또는
+(귀하의 선택에 따라) 최신 버전.
 
 PHP Server Monitor is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License
-along with PHP Server Monitor.  If not, see http://www.gnu.org/licenses/.
+
+PHP Server Monitor는 유용할 것이라는 바램으로 배포되었습니다.
+그러나 어떠한 보증도하지 않습니다. 자세한 내용은
+GNU 일반 공중 사용 허가서 (GNU General Public License).
+
+GNU 일반 공용사용 허가서 사본을 받아야합니다.
+PHP Server Monitor와 함께 제공됩니다. 그렇지 않은 경우 http://www.gnu.org/licenses/를 참조하십시오
 
 Docker
 -------
