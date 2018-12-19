@@ -11,15 +11,15 @@ PHP 서버 모니터는 웹 사이트와 서버가 가동 중인지 여부를 �
 서비스 및 웹 사이트를 관리할 수 있고 각 서버의 사용자를 모바일 번호와 이메일 주소로 관리할 수 있는 웹 기반 사용자 인터페이스가 함께 제공됩니다.
 
 
-Features:
+특징:
 ---------
 
-* Monitor services and websites (see below).
-* Email, SMS and Pushover notifications.
-* View history graphs of uptime and latency.
-* User authentication with 2 levels (administrator and regular user).
-* Logs of connection errors, outgoing emails and text messages.
-* Easy cronjob implementation to automatically check your servers.
+* 서비스 및 웹 사이트 모니터링(아래 참조).
+* 이메일, SMS 및 푸시오버 알림.
+* 가동 시간 및 대기 시간에 대한 기록 그래프 보기.
+* 2단계 사용자 인증 (관리자 및 일반 사용자).
+* 연결 오류, 보내는 이메일 및 텍스트 메시지 로그.
+* 서버를 자동으로 점검할 수 있는 간편한 크론작업 구현.
 
 There are two different ways to monitor a server:
 
