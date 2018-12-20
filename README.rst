@@ -119,11 +119,12 @@ Docker
 
 PHPServerMonitor는 이제 Docker에서 사용할 수 있습니다. : https://github.com/phpservermon/docker-phpservermonitor
 -------
+참고:![](https://www.youtube.com/watch?v=jxVqUMiNCOs)
 
 
 클라우드 서비스개발 전문가 과정 (2018.09.17 ~ 2019.02.28)
 -------
-[ 미니프로젝트 ]
+[프로젝트]
 -------
      * 안응철 http://www.gcp.elimao.site
      * 오동진 http://monitor.bestcloud.kr/phpservermon/
