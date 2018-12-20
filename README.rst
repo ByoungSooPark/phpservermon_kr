@@ -126,8 +126,8 @@ PHPServerMonitor는 이제 Docker에서 사용할 수 있습니다. : https://gi
 -------
 [프로젝트]
 -------
-     * 안응철 http://www.gcp.elimao.site
-     * 오동진 http://monitor.bestcloud.kr/phpservermon/
-     * 신동민 http://www.gcp.ddms.me
-     * 한열   http://www.gcp.hanyeol.com
+     * 안응철 http://www.gcp.elimao.site  
+     * 오동진 http://monitor.bestcloud.kr/phpservermon/  admin / password
+     * 신동민 http://www.gcp.ddms.me      root / password
+     * 한열   http://www.gcp.hanyeol.com  root / gksduf98
 
