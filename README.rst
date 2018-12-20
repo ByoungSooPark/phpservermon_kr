@@ -97,7 +97,7 @@ Vagrant에 익숙한 경우  (https://www.vagrantup.com)::
 -------------
 
 자세한 문서는 링크주소를 확인해주세요. http://docs.phpservermonitor.org.
-
+참고영상 - (https://www.youtube.com/watch?v=jxVqUMiNCOs)
 
 라이센스
 -------
@@ -119,7 +119,7 @@ Docker
 
 PHPServerMonitor는 이제 Docker에서 사용할 수 있습니다. : https://github.com/phpservermon/docker-phpservermonitor
 -------
-참고:![](https://www.youtube.com/watch?v=jxVqUMiNCOs)
+
 
 
 클라우드 서비스개발 전문가 과정 (2018.09.17 ~ 2019.02.28)
